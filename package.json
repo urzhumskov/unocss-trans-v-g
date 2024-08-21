@@ -1,0 +1,43 @@
+{
+	"name": "site-template",
+	"type": "module",
+	"version": "0.0.0",
+	"dependencies": {
+		"@unocss/preset-uno": "^0.62.2",
+		"@unocss/transformer-variant-group": "^0.62.2",
+		"@unocss/webpack": "^0.62.2",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"unocss": "^0.62.2"
+	},
+	"devDependencies": {
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+		"@swc/core": "^1.7.14",
+		"@types/node": "^22.4.2",
+		"@types/react": "^18.3.4",
+		"@types/react-dom": "^18.3.0",
+		"@types/react-refresh": "^0",
+		"@typescript-eslint/parser": "^8.2.0",
+		"cross-env": "^7.0.3",
+		"css-loader": "^7.1.2",
+		"html-webpack-plugin": "^5.6.0",
+		"mini-css-extract-plugin": "^2.9.1",
+		"prettier": "^3.3.3",
+		"react-refresh": "^0.14.2",
+		"style-loader": "^4.0.0",
+		"swc-loader": "^0.2.6",
+		"terser-webpack-plugin": "^5.3.10",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths-webpack-plugin": "^4.1.0",
+		"typescript": "^5.5.4",
+		"typescript-eslint": "^8.2.0",
+		"webpack": "^5.93.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.0.4"
+	},
+	"scripts": {
+		"start": "webpack serve",
+		"build": "webpack build --node-env=production"
+	},
+	"packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
+}

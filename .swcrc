@@ -1,0 +1,15 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    // "target": "es2022",
+    "parser": { "syntax": "typescript", "tsx": true },
+    "transform": { "react": { "runtime": "automatic" } },
+    "experimental": { "plugins": [] }
+  },
+  "module": { "type": "nodenext" },
+  "env": {
+    "targets": { "chrome": "124" },
+    "mode": "entry",
+    "coreJs": "3.37"
+  }
+}
